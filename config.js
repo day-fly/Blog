@@ -21,7 +21,7 @@ module.exports = {
     }
   ],
   author: {
-    name: 'kuku',
+    name: 'DayFly',
     photo: '/dayfly.svg',
     bio: 'Better today than yesterday',
     contacts: {
