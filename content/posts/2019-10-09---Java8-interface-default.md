@@ -7,8 +7,7 @@ slug: "/posts/Java8-interface-default/"
 category: "JAVA8"
 tags:
   - "JAVA"
-description: "Java Interface에서 default라는 키워드로 시작하는 메소드 구현체가 있는 메소드. 접근제어자인 default와는 다르다.
-자바 Interface에서는 명시하지 않아도 기본적으로 메소드는 Public abstract method이다."
+description: "Java 버전 8부터 Interface에서 default라는 키워드로 시작하는 메소드를 구현할 수 있게 되었다. 접근제어자인 default와는 다르다. (이미 알고 있겠지만, 자바 Interface에서는 명시하지 않아도 기본적으로 메소드가 Public abstract method이기 때문에 접근제어자는 default가 될 수 없다.)"
 socialImage: "/media/image-2.jpg"
 ---
 
@@ -73,7 +72,6 @@ public interface List<E> extends Collection<E> {
 
 ### 상황 1. Interface vs 서브 Interface vs 구현 클래스
 
-[코드 1-1]
 ```java
 public interface Company {
     default void print(){
